@@ -76,7 +76,3 @@ caveat = ['Not Coming','On Process','Achieved']
 M_IS['SLA'] = np.select(conditions, caveat, default='Check')
 
 M_IS.to_excel('Inbound Report.xlsx', index=False)
-
-
-
-
