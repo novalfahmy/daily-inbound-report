@@ -1,2 +1,2 @@
 # daily_inbound_report
-inbound report data cleansing ^^
+cleaning data for inbound report ^^
