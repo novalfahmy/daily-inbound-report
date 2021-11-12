@@ -75,10 +75,7 @@ conditions = [
 caveat = ['Not Coming','On Process','Achieved']
 M_IS['SLA'] = np.select(conditions, caveat, default='Check')
 
-M_IS.to_excel('Inbound Report Trial.xlsx', index=False)
-
-#pd.set_option('display.max_columns', None)
-#print(M_IS)
+M_IS.to_excel('Inbound Report.xlsx', index=False)
 
 
 
